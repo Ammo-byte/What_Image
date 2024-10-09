@@ -3,4 +3,7 @@
 *.png
 *.gif
 .DS_Store
+<<<<<<< HEAD
 FlickrImagedata.zip
+=======
+>>>>>>> origin/master
