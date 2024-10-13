@@ -1,0 +1,8 @@
+*.jpg
+*.jpeg
+*.png
+*.gif
+.DS_Store
+*.pkl
+checkpoint_epoch_*.pth.tar
+FlickrImagedata.zip
