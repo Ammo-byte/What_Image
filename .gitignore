@@ -6,3 +6,5 @@
 *.pkl
 checkpoint_epoch_*.pth.tar
 FlickrImagedata.zip
+# Exception: Don't ignore this specific PNG file
+!Model_Example_Diagram.png

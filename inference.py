@@ -14,7 +14,7 @@ checkpoint = torch.load(checkpoint_path, weights_only= False)
 # Hyperparameters (must match those used during training)
 embeded_size = 256
 hide_size = 256
-vocabulary_size = len(vocab)  # You need to have access to your vocabulary
+vocabulary_size = len(vocab)  # Vocabulary size used during training
 layers = 1  # Same number of layers used during training
 
 # Recreate the model
@@ -35,7 +35,7 @@ transform = transforms.Compose(
     ]
 )
 
-# Load and preprocess your untested images
+# Load and preprocess untested images
 image_path = '/Users/aamoditacharya/Desktop/Projects/Image Captioning Tool/What_Image/test_examples/boat.png'  # Replace with your image path
 image = Image.open(image_path).convert("RGB")
 image = transform(image).unsqueeze(0)  # Add batch dimension
